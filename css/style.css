@@ -1,79 +1,32 @@
+/*THIS IS A GENERAL STYLESHEET FOR ALL PAGES*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play&family=Poppins:ital,wght@1,800&family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Play&family=Poppins:ital,wght@1,800&family=Roboto+Slab&display=swap');
 
-
-
 *{
   margin: 0;
   padding: 0;
-
 }
-
-main{
-  display: flex;
-  flex-wrap: wrap;
-
-  height: 1000px;
-}
-
-
-
-.nav{
-    background-color: #1b1d1b;
-    width: 200px;
-    height: 100%;
-    position: fixed;
-    color: white;
-    border-radius: 1.5;
-    font-family: 'Play', sans-serif;
-}
-
-
-
-.nav a{
-  color: white;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  font-size: 20px;
-}
-
-
-.navSection{
-display: inline;
-
-}
-.home-wrapper{
-
-    top: 10%;
-    background-color: white;
-    border: 2px dashed black;
-    border-radius: 50px;
-    
-
-}
-
-
 
 #me{
   position: relative;
   margin-top:-15%;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  
+  width: 100%;
+  height: 400px;
 }
 
-#image-position{
-  text-align: center;
-}
 
+/*
 article{
   border: 2px dashed black;
-    border-radius: 5%;
+  border-radius: 5%;
   padding: 5%;
   background-color: white;
 }
+*/
 h1, h3, h4, .nav h2{
   text-align: center;
 }
@@ -88,17 +41,7 @@ h3, h4, h5{
 
 
 
-#about-me{
-  width: 70%;
-  position: relative;
-  left: 15%;
 
-}
-
-#about-me p{
-  font-family: 'Roboto Slab', serif;
-  font-size: 20px;
-}
 
 .text-sections p{
   letter-spacing: .9px;
@@ -109,6 +52,8 @@ h3, h4, h5{
 
 }
 
+
+/*FOOTER STYLES*/
 .icon-link{
   display: inline;
   padding: 1%;
@@ -144,49 +89,4 @@ h3, h4, h5{
 }
 
 
-
-nav{
-  background-color: #353434;
-  position: fixed;
-  height: 100%;;
-}
-
-.nav h2{
-  display: block;
-  padding: 20px 0 20px 0;
-  background-color: inherit;
-  text-align: center;
-  text-transform: uppercase;
-}
-ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-li{
-  padding: 15px  0px 15px 0px;
-  font-size: 30px;
-
-}
-
-.home-footer a{
-  text-decoration: none;
-  display: inline;
-  text-align: center;
-  color: black;
-}
-
-
-
-.home-footer{
-  position: relative;
-
-  left: 10%;
-  width: 80%;
-}
-
-.home-footer p{
-  color: grey;
-}
 
