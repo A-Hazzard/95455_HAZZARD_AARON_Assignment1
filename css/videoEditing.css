@@ -1,0 +1,72 @@
+body{
+    background-image: url(/images/videoPic.webp);
+}
+
+h1 em{
+    color: #1A459C;
+}
+.text-sections a{
+    text-decoration: none;
+}
+
+.videoEditing-wrapper{
+    position: relative;
+    top: -5%;
+    margin-left: 25% ;
+    padding: 5%;
+    width: 50%;
+    
+}
+.videEditing-center-icons a{
+    font-size: 30px;
+}
+  .videEditing-center-icons{
+    text-align: center;
+    display: block;
+    padding: 1%;
+    text-decoration: none;
+   
+  }
+ 
+  
+  #videoEditing-tags{
+      text-align: center;
+      margin: 0 12% 0 0;
+
+      display: flex;
+      flex-wrap: wrap;
+  
+  }
+  
+  .hashtag1, .hashtag2,.hashtag3{
+    display: inline;
+  }
+  
+  .hashtag1{
+    flex: 1;
+  }
+
+  .hashtag3{
+      flex: 1;
+  }
+  
+  .videoEditing-footer a{
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    color: black;
+  }
+  
+  
+  
+  .videoEditing-footer{
+    position: relative;
+  
+   
+    width: 100%;
+  }
+  
+  .videoEditing-footer p{
+    color: grey;
+  }
+  

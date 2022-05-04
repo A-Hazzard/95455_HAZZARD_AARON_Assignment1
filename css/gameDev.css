@@ -1,0 +1,16 @@
+body{
+    background-image: url(/images/gamePic.jpg);
+}
+
+h1 em{
+    color: #1A459C;
+}
+.text-sections a{
+    text-decoration: none;
+}
+
+.software-wrapper{
+    margin-left: 25% ;
+    padding: 5%;
+    width: 50%;
+}
