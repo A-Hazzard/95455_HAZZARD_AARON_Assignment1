@@ -1,0 +1,315 @@
+/*THIS IS A GENERAL STYLESHEET FOR ALL PAGES*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Poppins:ital,wght@1,800&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Play&family=Poppins:ital,wght@1,800&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+body{
+  background-size: 500px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#me{
+  position: relative;
+  margin-top:-15%;
+  
+  width: 100%;
+  height: 400px;
+}
+
+
+article{
+  border: 1.5px solid rgb(78, 57, 57);
+  background-color: rgba(0, 0, 0, 0.644);
+  width: 99%;
+  position: relative;
+  
+}
+  
+
+#about-me{
+  width: 90%;
+  position: relative;
+  left: 5%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+}
+
+h1, h3, h4, .nav h2{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 em{
+  color: #AD705A;
+}
+
+h3, h4, h5{
+  font-family: 'Play', sans-serif;
+}
+
+
+main{
+   margin-top: 50%;
+  color: antiquewhite;
+  background-color: rgba(39, 36, 36, 0.868);
+}
+
+
+
+
+nav {
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+  background-color: #573a30;
+}
+
+nav h4{
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+nav a {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  
+}
+
+
+
+ul a{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+
+}
+#image-position{
+  text-align: center;
+  display: block;
+  
+   
+}
+
+img{
+     width: 100%;
+    height: 350px;
+}
+
+
+
+.home-footer a{
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  color: black;
+}
+
+
+
+.home-footer{
+  position: relative;
+
+  left: 10%;
+  width: 80%;
+}
+
+.home-footer p{
+  color: grey;
+}
+
+
+
+.text-sections p{
+  letter-spacing: .9px;
+}
+
+.text-sections a{
+  text-decoration: none;
+  color: rgb(253, 169, 169);
+}
+
+.center-icons{
+  text-align: center;
+
+}
+
+
+/*FOOTER STYLES*/
+.icon-link{
+  display: inline;
+  padding: 1%;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+
+#tags{
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.hashtag1, .hashtag2,.hashtag3{
+  display: inline;
+}
+
+.hashtag1{
+  flex: 0.5;
+}
+
+.hashtag2{
+  order: 3;
+  flex: .5;
+}
+
+
+.text-sectons{
+  letter-spacing: 10px;
+}
+
+
+
+/*Small Mobile*/
+@media screen and (min-width: 449px) {
+ 
+  main{
+    margin-top: 30% ;
+  }
+ 
+}
+/*Small Mobile*/
+@media screen and (min-width: 599px) {
+  main{
+    margin-top: 25%;
+  }
+
+}
+/*TABLETS OR IPADS*/
+  @media screen and (min-width: 680px){
+    img{
+      height: 600px;
+    }
+   
+    main{
+      margin-top: 15%;
+    }
+  
+    .info{
+      background-color: rgba(0, 0, 0, 0.307);
+      margin-left: 10%;
+      border: 2px dashed white;
+      border-top: none;
+      border-bottom: none;
+      width: 80%;
+    }
+  
+  }
+  
+/*Laptops*/
+  @media screen and (min-width: 1024px) {
+  
+#image-position{
+  text-align: center;
+}
+    img{
+      margin-top: -15%;
+      width: 35%;
+      height: 200px;
+      border-radius: 50%;
+    }
+      nav{
+        width: 200px;
+        height: 100%;
+        position: fixed;
+        background-color: #1b1d1b;
+       
+        z-index: 1;
+      }
+
+      nav a{
+        color: white;
+        padding: 10%;
+        
+      }
+
+      nav h4{
+        text-transform: uppercase;
+        color:  white;
+        margin-top: 15%;
+        font-size: 20px;
+      }
+
+     
+      main{
+        margin-top: 10%;
+        width: 65%;
+        margin-left: 20%;
+        background: none;
+      }
+
+      .info{
+        position: relative;
+        margin-left: 20%;
+        
+        border: 2px dashed black;
+        border-radius: 5%;
+        background-color: white;
+        color: black;
+      }
+    }
+/*Large Laptops*/
+@media screen and (min-width: 1439px) {
+  img{
+    width: 30%;
+  }
+}
+
+/*4k Screen Monitors*/
+@media screen and (min-width: 2559px) {
+  
+  #image-position{
+    text-align: center;
+  }
+      img{
+       
+        width: 35%;
+        height: 400px;
+
+      }
+        nav{
+          width: 300px;
+        }
+  
+        nav a{
+          font-size: 40px;
+          
+        }
+  
+        nav h4{
+          font-size: 35px;
+        }
+
+        .info{
+          margin-left: 15%;
+          font-size: 40px;
+          border: 4px dashed black;
+
+        }
+
+      
+
+    }
