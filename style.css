@@ -1,6 +1,9 @@
-/*THIS IS A GENERAL STYLESHEET FOR ALL PAGES*/
+/*THIS IS A GENERAL STYLESHEET FOR ALL PAGES
 
+PLEASE NOTE THAT THE CSS CODE WAS CREATED FOR MOBILE VIEW FIRST THEN CHANGED TO DESKTOP
+VIEW IN THE MEDIA QUIERES. EVERYTHING OUTSIDE THE MEDIA QUIERIES IS MOBILE VIEW CODE*/
 
+/*Importing external fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play&family=Poppins:ital,wght@1,800&family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Play&family=Poppins:ital,wght@1,800&family=Roboto+Slab&display=swap');
@@ -23,8 +26,8 @@ body{
 
 
 article{
-  border: 1.5px solid rgb(78, 57, 57);
-  background-color: rgba(0, 0, 0, 0.644);
+  border: 1.5px solid rgb(78, 57, 57);/*Brown*/
+  background-color: rgba(0, 0, 0, 0.644);/*Black*/
   width: 99%;
   position: relative;
   
@@ -48,7 +51,7 @@ h1{
 }
 
 h1 em{
-  color: #AD705A;
+  color: #AD705A;/*orange*/
 }
 
 h3, h4, h5{
@@ -59,7 +62,7 @@ h3, h4, h5{
 main{
    margin-top: 50%;
   color: antiquewhite;
-  background-color: rgba(39, 36, 36, 0.868);
+  background-color: rgba(39, 36, 36, 0.868);/*dark brown-black*/
 }
 
 
@@ -71,7 +74,7 @@ nav {
   position: fixed;
   z-index: 1;
   text-align: center;
-  background-color: #573a30;
+  background-color: #573a30;/*brown*/
 }
 
 nav h4{
@@ -136,7 +139,7 @@ img{
 
 .text-sections a{
   text-decoration: none;
-  color: rgb(253, 169, 169);
+  color: rgb(253, 169, 169);/*pink*/
 }
 
 .center-icons{
@@ -209,7 +212,7 @@ img{
     }
   
     .info{
-      background-color: rgba(0, 0, 0, 0.307);
+      background-color: rgba(0, 0, 0, 0.307);/*dark brown-black*/
       margin-left: 10%;
       border: 2px dashed white;
       border-top: none;
@@ -235,7 +238,7 @@ img{
         width: 200px;
         height: 100%;
         position: fixed;
-        background-color: #1b1d1b;
+        background-color: #1b1d1b;/*Black*/
        
         z-index: 1;
       }
