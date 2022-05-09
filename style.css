@@ -111,7 +111,7 @@ img{
 
 
 
-.home-footer a{
+footer a{
   text-decoration: none;
   display: inline;
   text-align: center;
@@ -120,14 +120,14 @@ img{
 
 
 
-.home-footer{
+footer{
   position: relative;
 
   left: 10%;
   width: 80%;
 }
 
-.home-footer p{
+footer p{
   color: grey;
 }
 
@@ -166,10 +166,6 @@ img{
 
 }
 
-.hashtag1, .hashtag2,.hashtag3{
-  display: inline;
-}
-
 .hashtag1{
   flex: 0.5;
 }
@@ -178,7 +174,6 @@ img{
   order: 3;
   flex: .5;
 }
-
 
 .text-sectons{
   letter-spacing: 10px;
@@ -224,10 +219,15 @@ img{
   
 /*Laptops*/
   @media screen and (min-width: 1024px) {
-  
-#image-position{
+    main{
+      margin-top: 10%;
+      width: 65%;
+      margin-left: 20%;
+      background: none;
+    }
+  #image-position{
   text-align: center;
-}
+    }
     img{
       margin-top: -15%;
       width: 35%;
@@ -239,8 +239,7 @@ img{
         height: 100%;
         position: fixed;
         background-color: #1b1d1b;/*Black*/
-       
-        z-index: 1;
+         
       }
 
       nav a{
@@ -256,14 +255,6 @@ img{
         font-size: 20px;
       }
 
-     
-      main{
-        margin-top: 10%;
-        width: 65%;
-        margin-left: 20%;
-        background: none;
-      }
-
       .info{
         position: relative;
         margin-left: 20%;
@@ -273,6 +264,15 @@ img{
         background-color: white;
         color: black;
       }
+
+      .icon-link{
+        color: black;
+      }
+
+      .text-sections a{
+        color: #f73e00;
+      }
+     
     }
 /*Large Laptops*/
 @media screen and (min-width: 1439px) {
@@ -313,6 +313,8 @@ img{
 
         }
 
-      
+        .icon-link{
+          color: black;
+        }
 
     }
